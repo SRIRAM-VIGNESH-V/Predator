@@ -1,5 +1,5 @@
 # Predator
-Networks Forensic tool for sniffing network traffic with Python for live capture observation or PCAP creation and analysis.
+Predator is a network forensic tool for live network traffic and Pcap analysis.
 
 
 # Predator Modes of Operation: Live, Read, Write
