@@ -1,5 +1,6 @@
 # Predator
-Predator is a network forensic tool for live network traffic and Pcap analysis.
+
+"Predator" is a network forensic tool for live traffic analysis and PCAP parsing, featuring versatile filtering options for efficient packet capture and analysis.
 
 
 # Predator Modes of Operation: Live, Read, Write
