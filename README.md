@@ -113,27 +113,3 @@ Most arguments can be used for both Read & Write modes:
 ## Berkeley Packet Filter Examples
 Berkeley Packet Filter are for Predator's **Live** and **Write** mode of operation. Berkeley Packet Filters are recommended to filter for content relevant to the content that the user is seeking. Python is no where near as fast at C at parsing network packets so it wouldn't be effective to capture in Live or Write Mode without an appropiate BP filter. 
 ```
-# Matching IP
--------------
-dst host 192.168.1.0
-src host 192.168.1
-dst host 172.16
-src host 10
-host 192.168.1.0
-host 192.168.1.0/24
-src host 192.168.1/24
-
-# Matching Port/Portranges
---------------------------
-src port <PORT>
-dst port <PORT>
-port <PORT>
-src portrange 80-88
-tcp portrange 1501-1549
-
-# Matching MAC
---------------
-ether host <MAC>
-ether src host <MAC>
-ether dst host <MAC>
-```
